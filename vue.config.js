@@ -13,7 +13,7 @@ module.exports = {
             changeOrigin: true 
         },
     },
-    //     disableHostCheck: true,
+       disableHostCheck: true,
     //  port: 8081,
     //  hot: true,
          https: true,
