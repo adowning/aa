@@ -5,7 +5,7 @@ module.exports = {
         devtool: 'source-map',
     },
     devServer: {
-        https: false,
+        https: true,
         //  host: 'localhost',
     //     proxy:{ 
     //         "/":  {
