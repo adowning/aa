@@ -4,7 +4,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <ion-button @click="showDialogAlert" full>Show Alert Box</ion-button>
     <ion-button @click="notify" full>Show Alert Box</ion-button>
-
+    <btn />
   </div>
 </template>
 
