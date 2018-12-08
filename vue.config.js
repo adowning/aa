@@ -6,11 +6,11 @@ module.exports = {
     },
     devServer: {
         host: 'localhost',
-        proxy: 'https://ashdevtools.com',
+        // proxy: 'https://ashdevtools.com',
         disableHostCheck: true,
-        //  port: 443,
+         port: 8080,
          hot: true,
-         https: true,
+        //  https: true,
          https: {
             key: fs.readFileSync('/etc/ssl/private/cf.key'),
             cert: fs.readFileSync('/etc/ssl/certs/cf.pem'),
