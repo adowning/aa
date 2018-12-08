@@ -8,7 +8,7 @@ module.exports = {
          host: '0.0.0.0',
         proxy:{ 
             "/":  {
-            target: "https://192.168.1.10:8080",
+            target: "https://desktop:8080",
             secure: true,
             changeOrigin: true 
         },
