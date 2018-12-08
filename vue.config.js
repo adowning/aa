@@ -6,27 +6,27 @@ module.exports = {
     },
     devServer: {
         https: true,
-        //  host: 'localhost',
-        proxy:{ 
-            "/":  {
-            target: "https://web.ashdevtools.com",
-            secure: true,
-            changeOrigin: true 
-        }
+         host: 'desktop',
+        // proxy:{ 
+        //     "/":  {
+        //     target: "https://web.ashdevtools.com",
+        //     secure: true,
+        //     changeOrigin: true 
+        // }
     },
     //     // disableHostCheck: true,
      port: 8081,
      hot: true,
-    //     //  https: true,
-    //     //       https: {
-    //     //     key: fs.readFileSync('./localhost.key'),
-    //     //     cert: fs.readFileSync('./localhost.crt'),
-    //     // //   ca: fs.readFileSync('/home/ash/aa/localcerts/server_rootCA.pem'),
-    //     // }
+         https: true,
          https: {
-            key: fs.readFileSync('/etc/ssl/private/cf.key'),
-            cert: fs.readFileSync('/etc/ssl/certs/cf.pem'),
+            key: fs.readFileSync('/home/ash/my-certificates/burp.key'),
+            cert: fs.readFileSync('/home/ash/my-certificates/burp-copy.pem'),
         //   ca: fs.readFileSync('/home/ash/aa/localcerts/server_rootCA.pem'),
         }
-    },
+        //  https: {
+        //     key: fs.readFileSync('/etc/ssl/private/cf.key'),
+        //     cert: fs.readFileSync('/etc/ssl/certs/cf.pem'),
+        // //   ca: fs.readFileSync('/home/ash/aa/localcerts/server_rootCA.pem'),
+        // }
+    // },
 }
