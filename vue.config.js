@@ -5,12 +5,12 @@ module.exports = {
         devtool: 'source-map',
     },
     devServer: {
-        host: 'ashdevtools.com',
-        proxy: 'https://ashdevtools.com',
+        // host: 'ashdev tools.com',
+        proxy: 'https://localhost.com',
         disableHostCheck: true,
         //  port: 443,
          hot: true,
-        // https: true,
+         https: true,
         //  https: {
         //     key: fs.readFileSync('/etc/ssl/private/cf.key'),
         //     cert: fs.readFileSync('/etc/ssl/certs/cf.pem'),
