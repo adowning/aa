@@ -16,7 +16,7 @@ module.exports = {
     },
     //     // disableHostCheck: true,
      port: 8081,
-     hot: false,
+     hot: true,
     //     //  https: true,
     //     //       https: {
     //     //     key: fs.readFileSync('./localhost.key'),
