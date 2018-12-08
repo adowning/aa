@@ -5,7 +5,6 @@
     <ion-button @click="showDialogAlert" full>Show Alert Box</ion-button>
     <ion-button @click="notify" full>Show Alert Box</ion-button>
     <ion-button @click="notify" full>Show Alert Box</ion-button>
-    <ion-button @click="notify" full>Show Alert Box</ion-button>
 
   </div>
 </template>
