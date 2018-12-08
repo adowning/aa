@@ -1,0 +1,17 @@
+{
+  "appId": "com.andrews.app",
+  "appName": "andrewsapp",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "linuxAndroidStudioPath": "/home/ash/Android/android-studio/bin/studio.sh",  
+  "server": {
+    "url": "https://ashdevtools.com",
+    "port": "443"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,    
+    "webContentsDebuggingEnabled": true
+  }
+}
+
