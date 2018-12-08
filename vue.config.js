@@ -6,11 +6,13 @@ module.exports = {
     },
     devServer: {
         // host: '0.0.0.0',
-        proxy: {
+        proxy:{ 
+            "/":  {
             target: "https://localhost.com:8080",
-            secure: false,
+            secure: true,
             changeOrigin: true 
-        },
+        }
+    },
         // disableHostCheck: true,
         //  port: 8080,
         //  hot: false,
