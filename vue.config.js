@@ -6,10 +6,10 @@ module.exports = {
     },
     devServer: {
         host: '0.0.0.0',
-        // proxy: 'https://ashdevtools.com',
+        proxy: 'https://localhost.com:8080',
         disableHostCheck: true,
          port: 8080,
-         hot: true,
+         hot: false,
          https: true,
               https: {
             key: fs.readFileSync('./localhost.key'),
