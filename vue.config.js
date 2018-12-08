@@ -8,7 +8,7 @@ module.exports = {
          host: 'localhost',
         proxy:{ 
             "/":  {
-            target: "https://localhost.com:8080",
+            target: "https://ashdevtools.com:8080",
             secure: true,
             changeOrigin: true 
         }
