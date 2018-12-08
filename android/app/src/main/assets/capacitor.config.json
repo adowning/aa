@@ -5,8 +5,8 @@
   "webDir": "dist",
   "linuxAndroidStudioPath": "/home/ash/Android/android-studio/bin/studio.sh",  
   "server": {
-    "url": "https://ashdevtools.com",
-    "port": "443"
+    "url": "https://web.ashdevtools.com",
+    "port": "80"
   },
   "android": {
     "allowMixedContent": true,

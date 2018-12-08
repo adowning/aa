@@ -18,6 +18,7 @@
 # cd ..
 #export '/home/ash/.oh-my-zsh/custom/z_myandroidaliases.zsh'
 # shopt -s expand_aliases &
+npx cap sync
 emu -avd good24 &
 cd android;
 buildInstallLaunchDebugApk;
