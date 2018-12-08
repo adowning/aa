@@ -8,7 +8,7 @@ module.exports = {
         host: 'ashdevtools.com',
         proxy: 'https://ashdevtools.com',
         disableHostCheck: true,
-        // port: 8080,
+         port: 443,
          hot: true,
         // https: true,
          https: {
