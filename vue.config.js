@@ -6,7 +6,7 @@ module.exports = {
     },
     devServer: {
         https: true,
-         host: 'desktop',
+         host: 'web.ashdevtools.com',
         proxy:{ 
             "/":  {
             target: "https://web.ashdevtools.com",
