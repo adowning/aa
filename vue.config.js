@@ -6,13 +6,13 @@ module.exports = {
     },
     devServer: {
         https: true,
-         host: '0.0.0.0',
-        // proxy:{ 
-        //     "/":  {
-        //     target: "https://web.ashdevtools.com",
-        //     secure: true,
-        //     changeOrigin: true 
-        // }
+         host: 'desktop',
+    //     proxy:{ 
+    //         "/":  {
+    //         target: "https://desktop",
+    //         secure: true,
+    //         changeOrigin: true 
+    //     },
     // },
         disableHostCheck: true,
      port: 8081,
