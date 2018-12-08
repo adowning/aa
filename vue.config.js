@@ -6,15 +6,15 @@ module.exports = {
     },
     devServer: {
         https: true,
-         host: 'desktop',
+         host: '0.0.0.0',
         // proxy:{ 
         //     "/":  {
         //     target: "https://web.ashdevtools.com",
         //     secure: true,
         //     changeOrigin: true 
         // }
-    },
-    //     // disableHostCheck: true,
+    // },
+        disableHostCheck: true,
      port: 8081,
      hot: true,
          https: true,
@@ -28,5 +28,5 @@ module.exports = {
         //     cert: fs.readFileSync('/etc/ssl/certs/cf.pem'),
         // //   ca: fs.readFileSync('/home/ash/aa/localcerts/server_rootCA.pem'),
         // }
-    // },
+    },
 }
