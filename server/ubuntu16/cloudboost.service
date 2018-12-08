@@ -1,0 +1,10 @@
+[Unit]
+Description=CloudBoost Server
+
+[Service]
+PermissionsStartOnly=true
+ExecStart=/usr/local/bin/startup.sh
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
