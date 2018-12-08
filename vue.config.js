@@ -6,8 +6,9 @@ module.exports = {
     },
     devServer: {
         host: '0.0.0.0',
+        changeOrigin: true,
         proxy: 'https://localhost.com:8080',
-        disableHostCheck: true,
+        // disableHostCheck: true,
          port: 8080,
          hot: false,
          https: true,
