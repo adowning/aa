@@ -6,7 +6,7 @@ module.exports = {
     },
     devServer: {
         https: true,
-         host: 'www.ashdevtools.com',
+         host: 'localhost',
         // proxy:{ 
         //     "/":  {
         //     target: "https://fuckity.ashdevtools.com",
@@ -18,15 +18,15 @@ module.exports = {
      port: 8081,
      hot: true,
          https: true,
-         https: {
-            key: fs.readFileSync('/home/ash/my-certificates/burp.key'),
-            cert: fs.readFileSync('/home/ash/my-certificates/burp-copy.pem'),
-        //   ca: fs.readFileSync('/home/ash/aa/localcerts/server_rootCA.pem'),
-        }
         //  https: {
-        //     key: fs.readFileSync('/etc/ssl/private/cf.key'),
-        //     cert: fs.readFileSync('/etc/ssl/certs/cf.pem'),
+        //     key: fs.readFileSync('/home/ash/my-certificates/burp.key'),
+        //     cert: fs.readFileSync('/home/ash/my-certificates/burp-copy.pem'),
         // //   ca: fs.readFileSync('/home/ash/aa/localcerts/server_rootCA.pem'),
         // }
+         https: {
+            key: fs.readFileSync('/etc/ssl/private/cf.key'),
+            cert: fs.readFileSync('/etc/ssl/certs/cf.pem'),
+        //   ca: fs.readFileSync('/home/ash/aa/localcerts/server_rootCA.pem'),
+        }
     },
 }
