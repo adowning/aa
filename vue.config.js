@@ -5,7 +5,8 @@ module.exports = {
         devtool: 'source-map',
     },
     devServer: {
-         host: 'localhost',
+        https: false,
+        //  host: 'localhost',
     //     proxy:{ 
     //         "/":  {
     //         target: "https://ashdevtools.com:8080",
