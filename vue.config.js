@@ -5,16 +5,16 @@ module.exports = {
         devtool: 'source-map',
     },
     devServer: {
-        host: 'localhost',
+        host: '0.0.0.0',
         // proxy: 'https://ashdevtools.com',
         disableHostCheck: true,
          port: 8080,
          hot: true,
-        //  https: true,
-         https: {
-            key: fs.readFileSync('/etc/ssl/private/cf.key'),
-            cert: fs.readFileSync('/etc/ssl/certs/cf.pem'),
-        //   ca: fs.readFileSync('/home/ash/aa/localcerts/server_rootCA.pem'),
-        }
+         https: true,
+        //  https: {
+        //     key: fs.readFileSync('/etc/ssl/private/cf.key'),
+        //     cert: fs.readFileSync('/etc/ssl/certs/cf.pem'),
+        // //   ca: fs.readFileSync('/home/ash/aa/localcerts/server_rootCA.pem'),
+        // }
     },
 }
