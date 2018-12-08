@@ -6,13 +6,13 @@ module.exports = {
     },
     devServer: {
          host: 'localhost',
-        // proxy:{ 
-        //     "/":  {
-        //     target: "https://fuckity.ashdevtools.com",
-        //     secure: true,
-        //     changeOrigin: true 
-        // },
-    // },
+        proxy:{ 
+            "/":  {
+            target: "https://web.ashdevtools.com",
+            secure: true,
+            changeOrigin: true 
+        },
+    },
         disableHostCheck: true,
      port: 8081,
      hot: true,
