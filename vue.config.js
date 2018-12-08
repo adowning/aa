@@ -6,16 +6,16 @@ module.exports = {
     },
     devServer: {
          host: 'localhost',
-        proxy:{ 
-            "/":  {
-            target: "https://web.ashdevtools.com",
-            secure: true,
-            changeOrigin: true 
-        },
-    },
-        disableHostCheck: true,
-     port: 8081,
-     hot: true,
+    //     proxy:{ 
+    //         "/":  {
+    //         target: "https://web.ashdevtools.com",
+    //         secure: true,
+    //         changeOrigin: true 
+    //     },
+    // },
+    //     disableHostCheck: true,
+    //  port: 8081,
+    //  hot: true,
         //  https: true,
     //     //  https: {
     //     //     key: fs.readFileSync('/home/ash/my-certificates/burp.key'),
