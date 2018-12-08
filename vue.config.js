@@ -6,14 +6,14 @@ module.exports = {
     },
     devServer: {
         https: true,
-         host: 'web.ashdevtools.com',
-        proxy:{ 
-            "/":  {
-            target: "https://web.ashdevtools.com",
-            secure: true,
-            changeOrigin: true 
-        },
-    },
+         host: 'www.ashdevtools.com',
+        // proxy:{ 
+        //     "/":  {
+        //     target: "https://fuckity.ashdevtools.com",
+        //     secure: true,
+        //     changeOrigin: true 
+        // },
+    // },
         disableHostCheck: true,
      port: 8081,
      hot: true,
