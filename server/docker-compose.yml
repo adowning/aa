@@ -14,12 +14,12 @@ redis:
   restart: always
 api:
   environment:
-    - "CLOUDBOOST_ANALYTICS_SERVICE_HOST=cluster-analytics.cloudboost.io" 
-    - "MAIL_PROVIDER= '<mail provider name>'"
-    - "MAIL_PROVIDER_API_KEY= '<mail provider's api/auth key>'"
-    - "DOMAIN= '<mail domain>'"
-    - "FROM_EMAIL= '<email's from email>'"
-    - "FROM_NAME= '<email's from name>'"
+    - "CLOUDBOOST_ANALYTICS_SERVICE_HOST=analytics.ashdevtools.com" 
+    - "MAIL_PROVIDER= 'mail@ashdevtool.com'"
+    - "MAIL_PROVIDER_API_KEY= 'asdf'"
+    - "DOMAIN= 'api.ashdevtools.com'"
+    - "FROM_EMAIL= 'blah@ashdevtools.com'"
+    - "FROM_NAME= 'blah"
   image: 'cloudboost/cloudboost:latest'
   links:
     - mongo
