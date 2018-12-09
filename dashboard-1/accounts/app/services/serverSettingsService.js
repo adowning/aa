@@ -2,6 +2,7 @@
 app.service('serverSettingsService', function($q,$http){ 
 
   this.isNewServer=function(){
+    return false;
     var q=$q.defer();
 
     $http.get(frontendServerURL+'/server/isNewServer').
