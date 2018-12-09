@@ -20,6 +20,7 @@ api:
     - "DOMAIN= 'api.ashdevtools.com'"
     - "FROM_EMAIL= 'blah@ashdevtools.com'"
     - "FROM_NAME= 'blah"
+    - "SEC_KEY='f2e5bda7-5f1a-4b18-85d7-001853bcc3af'"
   image: 'cloudboost/cloudboost:latest'
   links:
     - mongo
