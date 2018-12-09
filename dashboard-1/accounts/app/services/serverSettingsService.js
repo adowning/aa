@@ -17,16 +17,22 @@ app.service('serverSettingsService', function($q,$http){
 
 
   this.getServerSettings=function(){
-    var q=$q.defer();
+    let data = {
+      appId:"andrewsDev",  
+      name:"andrewsDev" 
+    }
+    return data;
 
-    $http.get(frontendServerURL+'/server').
-      success(function(data, status, headers, config) {
-        q.resolve(data);
-      }).
-      error(function(data, status, headers, config) {
-        q.reject(data);
-      });
-    return q.promise;
+  //   var q=$q.defer();
+
+  //   $http.get(frontendServerURL+'/server').
+  //     success(function(data, status, headers, config) {
+  //       q.resolve(data);
+  //     }).
+  //     error(function(data, status, headers, config) {
+  //       q.reject(data);
+  //     });
+  //   return q.promise;
+  // }
   }
-
 });
