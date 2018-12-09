@@ -17,10 +17,8 @@ app.service('serverSettingsService', function($q,$http){
 
 
   this.getServerSettings=function(){
-    let data = {
-      appId:"andrewsDev",  
-      name:"andrewsDev" 
-    }
+
+    let data = ["andrewsDev"]
     return data;
 
   //   var q=$q.defer();
