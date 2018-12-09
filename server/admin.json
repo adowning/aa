@@ -1,0 +1,41 @@
+{
+    "_type": "admin",
+    "username": "admin",
+    "expires": null,
+    "email": "ashdowning@gmail.com",
+    "_tableName": "User",
+    "ACL": {
+        "write": {
+            "allow": {
+                "role": [],
+                "user": [
+                    "all"
+                ]
+            },
+            "deny": {
+                "role": [],
+                "user": []
+            }
+        },
+        "read": {
+            "allow": {
+                "role": [],
+                "user": [
+                    "all"
+                ]
+            },
+            "deny": {
+                "role": [],
+                "user": []
+            }
+        }
+    },
+    "password": "9b2a8de1e93b519d",
+    "_id": "Pfm6tcts",
+    "createdAt": "2018-12-09T03:53:29.644Z",
+    "updatedAt": "2018-12-09T03:53:29.644Z",
+    "_version": 0,
+    "roles": null,
+    "socialAuth": null,
+    "verified": false
+}
